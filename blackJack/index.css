@@ -1,0 +1,30 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("img/pokertheme3.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 300%;
+}
+
+button {
+    color: white;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    border-radius: 7px;
+    margin-bottom: 4px
+}

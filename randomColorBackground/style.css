@@ -1,0 +1,28 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+#btn-1 {
+    color: white;
+    /* background-color: rgb(16, 32, 52); */
+    background-color: black;
+    font-size: 60px;
+    width: 800px;
+    height: 200px;
+    border-radius: 50em;
+    text-transform: uppercase;
+    border: solid white 3px;
+}
+
+#btn-1:hover {
+    cursor: pointer;
+    background-color: rgb(25, 26, 28);
+    transition: 0.5;
+}

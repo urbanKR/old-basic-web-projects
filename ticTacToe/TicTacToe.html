@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="styleTTT.css">
+</head>
+
+<body>
+    <h1>TicTacToe</h1>
+    <main>
+        <div id="board">
+            <div class="tile" id="tile-1">
+                <!-- <span class="circle"></span> -->
+            </div>
+            <div class="tile" id="tile-2">
+                <!-- <span class="cross">&#xd7</span> -->
+            </div>
+            <div class="tile" id="tile-3"></div>
+            <div class="tile" id="tile-4"></div>
+            <div class="tile" id="tile-5"></div>
+            <div class="tile" id="tile-6"></div>
+            <div class="tile" id="tile-7"></div>
+            <div class="tile" id="tile-8"></div>
+            <div class="tile" id="tile-9"></div>
+        </div>
+        <button id="new-game-btn">New Game</button>
+        <label for="choose-lbl">play as:</label>
+        <select name="choose-lbl" id="select-el">
+            <option value="circle">circle</option>
+            <option value="cross">cross</option>
+        </select>
+        <h2 id="result-label"></h2>
+    </main>
+    <script src="indexTTT.js"></script>
+</body>
+
+</html>

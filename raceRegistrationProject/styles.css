@@ -1,0 +1,50 @@
+body {
+    background-color: #8d99ae;
+    color: #2b2d42;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+
+
+h1 {
+    color: #edf2f4;
+}
+
+.third-group-label {
+    color: #edf2f4;
+}
+
+select {
+    background-color: #ef233c;
+    color: #edf2f4;
+}
+
+input[name="radio"] {
+    accent-color: #d90429;
+}
+
+p {
+    color: #edf2f4;
+}
+
+button {
+    background-color: #ef233c;
+    color: #edf2f4;
+    border: 3px solid #d90429;
+    border-radius: 7em;
+    transition: 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #dd5a70;
+    border-color: #dd5a70;
+    transition: 0.3s;
+}
+
+select.decoration option:hover {
+    box-shadow: 0 0 10px 100px #1882A8 inset;
+}

@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#score-txt {
+    font-weight: 900;
+}
+
+#below-img-txt {
+    padding: 0;
+    margin: 0;
+    width: 400px;
+}
+
+#content {
+    margin-top: 100px;
+    border: 3px white solid;
+}
+
+div div#score-txt {
+    font-size: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#ping-pong-img {
+    width: 400px;
+    align-items: center;
+    border: 3px white solid;
+}
+
+#playing-to-txt {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#buttons-div {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+button {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    padding: 0;
+    margin: 0;
+    color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+#player-one-btn {
+    background-color: rgb(46, 191, 46);
+}
+
+#player-one-btn:hover {
+    cursor: pointer;
+    background-color: rgb(86, 205, 86);
+}
+
+#player-two-btn {
+    background-color: rgb(30, 97, 191);
+}
+
+#player-two-btn:hover {
+    cursor: pointer;
+    background-color: rgb(53, 112, 196);
+}
+
+#reset-btn {
+    background-color: red;
+}
+
+#reset-btn:hover {
+    cursor: pointer;
+    background-color: rgb(246, 70, 70);
+}
+
+button:hover {
+    transition: 0.5 all;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.win {
+    color: rgb(46, 191, 46);
+}
+
+.lose {
+    color: red;
+}

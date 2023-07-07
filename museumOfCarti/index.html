@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+  <title>Museum of Carti</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <!-- <nav>
+      <input type="checkbox" id="check" class="check-input">
+      <label for="check" class="check-btn">
+        <i class="fa fa-bars"></i>
+      </label>
+      <ul class="nav-links">
+        <li><a href="#" id="carti-el">Carti</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Tickets</a></li>
+      </ul>
+    </nav> -->
+  <nav id="main-nav">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo">Carti</label>
+    <ul>
+      <!-- <li id="carti-el"><a href="#">Carti</a></li> -->
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Tickets</a></li>
+    </ul>
+  </nav>
+
+  <div class="section" id="first-section">
+    <div id="title-group">
+      <div>
+        museum<span>/</span>of<span>/</span>carti
+      </div>
+      <div>
+        museum<span>/</span>of<span>/</span>carti
+      </div>
+      <div>
+        museum<span>/</span>of<span>/</span>carti
+      </div>
+    </div>
+
+    <div id="first-img" class="section-img">
+      <img src="img/whole-lotta-red-album.jpg" alt="#">
+    </div>
+  </div>
+
+  <div class="section" id="section-2">
+    <div id="second-img" class="section-img">
+      <img src="img/wlr-album-ogwebp.webp" alt="#">
+    </div>
+
+    <div class="text-group">
+      <h2>Museum of Carti</h2>
+      <img src="img/coffin.png" alt="#">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio odit et temporibus error alias dolore, similique
+        beatae a quibusdam rem, facilis modi cum ratione repellendus reprehenderit saepe porro nemo aspernatur!
+        Quae facilis eveniet, enim maiores ratione in debitis aliquid sint aliquam, ab ad repellendus officia quia
+        consequuntur repellat cupiditate. Sint, libero consectetur voluptates architecto deleniti laudantium dolores
+        veniam. Repudiandae, magni.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="text-group">
+      <h2>Museum of Carti</h2>
+      <img src="img/coffin.png" alt="#">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio odit et temporibus error alias dolore, similique
+        beatae a quibusdam rem, facilis modi cum ratione repellendus reprehenderit saepe porro nemo aspernatur!
+        Quae facilis eveniet, enim maiores ratione in debitis aliquid sint aliquam, ab ad repellendus officia quia
+        consequuntur repellat cupiditate. Sint, libero consectetur voluptates architecto deleniti laudantium dolores
+        veniam. Repudiandae, magni.</p>
+    </div>
+    <div id="third-img" class="section-img">
+      <img src="img/wlr-album-fan.png" alt="#">
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#main-nav");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
+</body>
+
+</html>

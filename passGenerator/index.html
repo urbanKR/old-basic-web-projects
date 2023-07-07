@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a random password</h1>
+        <h2 id="message-el">Remember to have a secure password!</h2>
+        <h5 id="message-el">Letters that will be in the password and password length: </h5>
+        <input type="text" placeholder="input letters for password..." id="search-box">
+        <input type="text" placeholder="password length..." id="search-box2">
+        <div class="btn-group">
+            <button id="first-btn" onclick="generatePass()">#generate passwords</button>
+            <button id="second-btn" onclick="remove()">#remove</button>
+        </div>
+        <div class="password-group1">
+            <div id="pass-1" ></div>
+            <div id="pass-2"></div>
+            <div id="pass-3"></div>
+        </div>
+        <div class="password-group2">
+            <div id="pass-4"></div>
+            <div id="pass-5"></div>
+            <div id="pass-6" ></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
